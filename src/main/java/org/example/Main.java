@@ -1,17 +1,22 @@
 package org.example;
 
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
-public class Main {
+import java.util.Random;
+public class Assignment3Singleton {
     public static void main(String[] args) {
-        //TIP Press <shortcut actionId="ShowIntentionActions"/> with your caret at the highlighted text
-        // to see how IntelliJ IDEA suggests fixing it.
-        System.out.printf("Hello and welcome!");
-
-        for (int i = 1; i <= 5; i++) {
-            //TIP Press <shortcut actionId="Debug"/> to start debugging your code. We have set one <icon src="AllIcons.Debugger.Db_set_breakpoint"/> breakpoint
-            // for you, but you can always add more by pressing <shortcut actionId="ToggleLineBreakpoint"/>.
-            System.out.println("i = " + i);
+        Random r = new Random();
+        for (int i = 0; i < 10; i++) {
+            EagerSingleton s = EagerSingleton.getInstance(r.nextInt(3));
+            System.out.println("Retrieved eager singleton " + s.getId());
+            try {
+                Thread.sleep(2000);
+            } catch (InterruptedException e) {}
+        }
+        for (int i = 0; i < 10; i++) {
+            LazySingleton s = LazySingleton.getInstance(r.nextInt(3));
+            System.out.println("Retrieved lazy singleton " + s.getId());
+            try {
+                Thread.sleep(2000);
+            } catch (InterruptedException e) {}
         }
     }
 }
