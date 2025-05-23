@@ -1,6 +1,6 @@
 package org.example;
 
-public class EagerSingleton {
+public class EagerSingleton { // other way to store this? easier to create them sep?
     private static final EagerSingleton[] instances = {
             new EagerSingleton(0),
             new EagerSingleton(1),
