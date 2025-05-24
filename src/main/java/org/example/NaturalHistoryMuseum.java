@@ -23,6 +23,7 @@ public class NaturalHistoryMuseum {
         System.out.println("Thank you for visiting the " + f.getEra() + " exhibition. Now on to the next exhibition");
         System.out.println();
 
+        // I added this part
         AnimalAbstractFactory j = new JurassicAnimalFactory();
         System.out.println("You are now in the " + j.getEra() + " exhibition");
 
