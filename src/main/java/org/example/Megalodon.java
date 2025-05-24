@@ -1,10 +1,9 @@
 package org.example;
 
-public class Manatees implements SeaAnimal {
+public class Megalodon implements SeaAnimal {
     public String getName() {
-        return "Manatees";
+        return "Megalodon";
     }
-
     public String getSwimming() {
         return "swimming";
     }
