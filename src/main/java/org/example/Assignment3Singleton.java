@@ -1,5 +1,8 @@
 package org.example;
 
+// Hafsa Feroz
+// Assignment 3 - Section 601
+
 import java.util.Random;
 public class Assignment3Singleton {
     public static void main(String[] args) {
