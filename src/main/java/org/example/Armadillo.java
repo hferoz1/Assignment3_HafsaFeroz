@@ -12,7 +12,7 @@ public class Armadillo implements LandAnimal {
      * @return how the animal moves/walks
      */
     public String getWalking() {
-        return "walking";
+        return "creeping through the forest";
     }
 }
 

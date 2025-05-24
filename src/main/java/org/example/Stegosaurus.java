@@ -12,6 +12,6 @@ public class Stegosaurus implements LandAnimal {
      * @return how the animal moves/walks
      */
     public String getWalking() {
-        return "walking";
+        return "running from the lava";
     }
 }

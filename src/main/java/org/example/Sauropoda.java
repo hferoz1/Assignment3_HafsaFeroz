@@ -12,6 +12,6 @@ public class Sauropoda implements LandAnimal {
      * @return how the animal moves/walks
      */
     public String getWalking() {
-        return "walking";
+        return "grazing the grassland";
     }
 }

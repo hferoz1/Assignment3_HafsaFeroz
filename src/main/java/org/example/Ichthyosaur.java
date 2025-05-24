@@ -12,6 +12,6 @@ public class Ichthyosaur implements SeaAnimal {
      * @return how animal moves/swims
      */
     public String getSwimming() {
-        return "swimming";
+        return "swimming in circles";
     }
 }

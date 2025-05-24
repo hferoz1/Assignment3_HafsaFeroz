@@ -12,7 +12,7 @@ public class Songbird implements SkyAnimal {
      * @return how the animal moves/flies
      */
     public String getFlying() {
-        return "flying";
+        return "flying home to its nest with food";
     }
 }
 

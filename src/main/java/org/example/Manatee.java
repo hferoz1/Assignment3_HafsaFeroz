@@ -12,6 +12,6 @@ public class Manatee implements SeaAnimal {
      * @return how the animal moves/swims
      */
     public String getSwimming() {
-        return "swimming";
+        return "swimming along the coast";
     }
 }

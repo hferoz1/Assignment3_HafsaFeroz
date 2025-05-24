@@ -12,6 +12,6 @@ public class Megalodon implements SeaAnimal {
      * @return how animal moves/swims
      */
     public String getSwimming() {
-        return "swimming";
+        return "swimming swiftly to catch its prep";
     }
 }

@@ -13,6 +13,6 @@ public class Archaeopteryx implements SkyAnimal {
      * @return hwo animal moves/flies
      */
     public String getFlying() {
-        return "flying";
+        return "gathering food and flying to its nest";
     }
 }

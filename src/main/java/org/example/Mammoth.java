@@ -13,6 +13,6 @@ public class Mammoth implements LandAnimal {
      * @return hwo animals walks/moves
      */
     public String getWalking() {
-        return "walking";
+        return "stomping heavily";
     }
 }

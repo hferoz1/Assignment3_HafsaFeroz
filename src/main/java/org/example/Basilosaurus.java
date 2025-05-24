@@ -12,6 +12,6 @@ public class Basilosaurus implements SeaAnimal {
      * @return how animal moves/swims
      */
     public String getSwimming() {
-        return "swimming";
+        return "swimming too close to the shore";
     }
 }

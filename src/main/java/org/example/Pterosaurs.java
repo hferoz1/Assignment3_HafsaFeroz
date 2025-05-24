@@ -12,6 +12,6 @@ public class Pterosaurs implements SkyAnimal {
      * @return how animal moves/flies
      */
     public String getFlying() {
-        return "flying";
+        return "flying to avoid the lava";
     }
 }

@@ -12,6 +12,6 @@ public class Bat implements SkyAnimal {
      * @return how the animal moves/flies
      */
     public String getFlying() {
-        return "flying";
+        return "flying to different caves";
     }
 }
