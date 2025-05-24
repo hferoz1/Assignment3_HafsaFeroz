@@ -1,12 +1,11 @@
 package org.example;
 
-public class Armadillo implements LandAnimal {
+public class Stegosaurus implements LandAnimal {
     public String getName() {
-        return "Armadillo";
+        return "Stegosaurus";
     }
 
     public String getWalking() {
         return "walking";
     }
 }
-
